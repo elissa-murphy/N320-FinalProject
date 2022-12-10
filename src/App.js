@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import CharacterList from "./components/CharacterList";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      {/* Header = Instructions for user to use the app */}
+      <header>
+        <h2>MARIO CHARACTERS</h2>
+        <p>Elissa Murphy | N320 Final Project | Fall 2022</p>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Learn about each Mario Kart character by clicking on each character's
+          icon. You can select a character to display them on the screen. Click
+          on the character for a fun animation then move onto the next!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <CharacterList />
     </div>
   );
 }

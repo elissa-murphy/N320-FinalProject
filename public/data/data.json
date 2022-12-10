@@ -1,0 +1,283 @@
+[
+  {
+    "id": 0,
+    "name": "Mario",
+    "bodyShot": "assets/bodyshots/mario-full.png",
+    "desc": "Mario is the main character and titular protagonist of the long-running and highly successful video game franchise of the same name. He was created by Japanese video game designer Shigeru Miyamoto and serves as the main mascot of Nintendo.",
+    "cart": "",
+    "logo": "assets/characterLogos/mario-logo.png",
+    "map": "assets/tracks/rainbowRoad.webp",
+    "tracks": [
+      {
+        "id": 0,
+        "track": "Rainbow Road",
+        "thumbnail": "assets/tracks/rainbowRoad.webp",
+        "desc": {
+          "main": "All the versions of the track share common elements: they are all suspended in space or sky, and have a very colorful track layout, hence the name, and powerful themed music.",
+          "lengths": "They are sometimes the longest in the their games, notably Mario Kart 64's version, with a length of 2 kilometers and 2 minutes laptimes."
+        }
+      },
+      {
+        "id": 1,
+        "track": "Toad Circuit",
+        "thumbnail": "assets/tracks/Track2.webp",
+        "desc": {
+          "main": "All the versions of the track share common elements : they are all suspended in space or sky, and have a very colorful track layout, hence the name, and powerful themed music.",
+          "lengths": "80-100 seconds to complete. The course is a simple circuit with few obstacles, as it is the first course in the game and is thus comparable to Luigi Circuit in previous installments."
+        }
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Luigi",
+    "bodyShot": "assets/bodyshots/luigi-full.png",
+    "desc": "Luigi is Mario's younger twin brother and the secondary protagonist of the Mario franchise. Throughout his life, he has lived in Mario's shadow, developing both cowardly and heroic tendencies. Despite this, Luigi has helped and fought alongside his brother on many occasions.",
+    "cart": "",
+    "logo": "assets/characterLogos/luigi-logo.webp",
+    "tracks": [
+      {
+        "id": 0,
+        "track": "Rainbow Road",
+        "thumbnail": "assets/tracks/rainbowRoad.webp",
+        "desc": {
+          "main": "All the versions of the track share common elements: they are all suspended in space or sky, and have a very colorful track layout, hence the name, and powerful themed music.",
+          "lengths": "They are sometimes the longest in the their games, notably Mario Kart 64's version, with a length of 2 kilometers and 2 minutes laptimes."
+        }
+      },
+      {
+        "id": 1,
+        "track": "Toad Circuit",
+        "thumbnail": "assets/tracks/Track2.webp",
+        "desc": {
+          "main": "All the versions of the track share common elements : they are all suspended in space or sky, and have a very colorful track layout, hence the name, and powerful themed music.",
+          "lengths": "80-100 seconds to complete. The course is a simple circuit with few obstacles, as it is the first course in the game and is thus comparable to Luigi Circuit in previous installments."
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Toad",
+    "bodyShot": "assets/bodyshots/toad-full.png",
+    "desc": "Toad is one of the main characters of the Mario franchise. He is Princess Peach's attendant and a longtime protector of the Mushroom Kingdom. He is actually a singular character among an entire species of look-alikes (much like Yoshi is to the Yoshi species), leading to confusion over some of his appearances. ",
+    "cart": "",
+    "logo": "assets/characterLogos/toad-logo.webp",
+    "tracks": [
+      {
+        "id": 0,
+        "track": "Rainbow Road",
+        "thumbnail": "assets/tracks/rainbowRoad.webp",
+        "desc": {
+          "main": "All the versions of the track share common elements: they are all suspended in space or sky, and have a very colorful track layout, hence the name, and powerful themed music.",
+          "lengths": "They are sometimes the longest in the their games, notably Mario Kart 64's version, with a length of 2 kilometers and 2 minutes laptimes."
+        }
+      },
+      {
+        "id": 1,
+        "track": "Toad Circuit",
+        "thumbnail": "assets/tracks/Track2.webp",
+        "desc": {
+          "main": "All the versions of the track share common elements : they are all suspended in space or sky, and have a very colorful track layout, hence the name, and powerful themed music.",
+          "lengths": "80-100 seconds to complete. The course is a simple circuit with few obstacles, as it is the first course in the game and is thus comparable to Luigi Circuit in previous installments."
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Donkey Kong",
+    "bodyShot": "assets/bodyshots/dKong-full.webp",
+    "desc": "Donkey Kong, also known simply as DK, D.K., or D. Kong, is a major character in the Mario franchise and the main protagonist of the Donkey Kong franchise. He is a powerful and carefree Kong that lives in Donkey Kong Island.",
+    "cart": "",
+    "logo": "assets/characterLogos/dKong-logo.webp",
+    "tracks": [
+      {
+        "id": 0,
+        "track": "Rainbow Road",
+        "thumbnail": "assets/tracks/rainbowRoad.webp",
+        "desc": {
+          "main": "All the versions of the track share common elements: they are all suspended in space or sky, and have a very colorful track layout, hence the name, and powerful themed music.",
+          "lengths": "They are sometimes the longest in the their games, notably Mario Kart 64's version, with a length of 2 kilometers and 2 minutes laptimes."
+        }
+      },
+      {
+        "id": 1,
+        "track": "Toad Circuit",
+        "thumbnail": "assets/tracks/Track2.webp",
+        "desc": {
+          "main": "All the versions of the track share common elements : they are all suspended in space or sky, and have a very colorful track layout, hence the name, and powerful themed music.",
+          "lengths": "80-100 seconds to complete. The course is a simple circuit with few obstacles, as it is the first course in the game and is thus comparable to Luigi Circuit in previous installments."
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Koopa Troopa",
+    "bodyShot": "assets/bodyshots/koopaTroopa-full.png",
+    "desc": "Koopa Troopas (commonly shortened to Koopas or sometimes Troopas) are anthropomorphic, turtle-like creatures with removable shells that come in many different colors, with red and green Koopa Troopas being the most common.",
+    "cart": "",
+    "logo": "assets/characterLogos/koopaTroopa-logo.webp",
+    "tracks": [
+      {
+        "id": 0,
+        "track": "Rainbow Road",
+        "thumbnail": "assets/tracks/rainbowRoad.webp",
+        "desc": {
+          "main": "All the versions of the track share common elements: they are all suspended in space or sky, and have a very colorful track layout, hence the name, and powerful themed music.",
+          "lengths": "They are sometimes the longest in the their games, notably Mario Kart 64's version, with a length of 2 kilometers and 2 minutes laptimes."
+        }
+      },
+      {
+        "id": 1,
+        "track": "Toad Circuit",
+        "thumbnail": "assets/tracks/Track2.webp",
+        "desc": {
+          "main": "All the versions of the track share common elements : they are all suspended in space or sky, and have a very colorful track layout, hence the name, and powerful themed music.",
+          "lengths": "80-100 seconds to complete. The course is a simple circuit with few obstacles, as it is the first course in the game and is thus comparable to Luigi Circuit in previous installments."
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Yoshi",
+    "bodyShot": "assets/bodyshots/yoshi-full.webp",
+    "desc": "Yoshi is a dinosaur-like character that acts as an ally of Mario and Luigi and is the protagonist of his own franchise. Among members of the Yoshi species hailing from Yoshi's Island, any Yoshi may be identified as the 'Yoshi' character, and as such, not all iterations of the character are necessarily the same one.",
+    "cart": "",
+    "logo": "assets/characterLogos/yoshi-logo.webp",
+    "tracks": [
+      {
+        "id": 0,
+        "track": "Rainbow Road",
+        "thumbnail": "assets/tracks/rainbowRoad.webp",
+        "desc": {
+          "main": "All the versions of the track share common elements: they are all suspended in space or sky, and have a very colorful track layout, hence the name, and powerful themed music.",
+          "lengths": "They are sometimes the longest in the their games, notably Mario Kart 64's version, with a length of 2 kilometers and 2 minutes laptimes."
+        }
+      },
+      {
+        "id": 1,
+        "track": "Toad Circuit",
+        "thumbnail": "assets/tracks/Track2.webp",
+        "desc": {
+          "main": "All the versions of the track share common elements : they are all suspended in space or sky, and have a very colorful track layout, hence the name, and powerful themed music.",
+          "lengths": "80-100 seconds to complete. The course is a simple circuit with few obstacles, as it is the first course in the game and is thus comparable to Luigi Circuit in previous installments."
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Princess Peach",
+    "bodyShot": "assets/bodyshots/pPeach-full.png",
+    "desc": "Princess Peach (casually Peach, usually known as Princess Toadstool outside of Japan prior to Super Mario 64) is a main character in the Mario franchise and the princess of the Mushroom Kingdom. ",
+    "cart": "",
+    "logo": "assets/characterLogos/pPeach-logo.webp",
+    "tracks": [
+      {
+        "id": 0,
+        "track": "Rainbow Road",
+        "thumbnail": "assets/tracks/rainbowRoad.webp",
+        "desc": {
+          "main": "All the versions of the track share common elements: they are all suspended in space or sky, and have a very colorful track layout, hence the name, and powerful themed music.",
+          "lengths": "They are sometimes the longest in the their games, notably Mario Kart 64's version, with a length of 2 kilometers and 2 minutes laptimes."
+        }
+      },
+      {
+        "id": 1,
+        "track": "Toad Circuit",
+        "thumbnail": "assets/tracks/Track2.webp",
+        "desc": {
+          "main": "All the versions of the track share common elements : they are all suspended in space or sky, and have a very colorful track layout, hence the name, and powerful themed music.",
+          "lengths": "80-100 seconds to complete. The course is a simple circuit with few obstacles, as it is the first course in the game and is thus comparable to Luigi Circuit in previous installments."
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Peachette",
+    "bodyShot": "assets/bodyshots/peachette-full.webp",
+    "desc": "Peachette is a unique form of Toadette, obtained by grabbing the Super Crown in New Super Mario Bros. U Deluxe. Upon obtaining the Super Crown to transform, she highly resembles Princess Peach, but with a different dress sporting a mushroom-like appearance.",
+    "cart": "",
+    "logo": "assets/characterLogos/peachette-logo.webp",
+    "tracks": [
+      {
+        "id": 0,
+        "track": "Rainbow Road",
+        "thumbnail": "assets/tracks/rainbowRoad.webp",
+        "desc": {
+          "main": "All the versions of the track share common elements: they are all suspended in space or sky, and have a very colorful track layout, hence the name, and powerful themed music.",
+          "lengths": "They are sometimes the longest in the their games, notably Mario Kart 64's version, with a length of 2 kilometers and 2 minutes laptimes."
+        }
+      },
+      {
+        "id": 1,
+        "track": "Toad Circuit",
+        "thumbnail": "assets/tracks/Track2.webp",
+        "desc": {
+          "main": "All the versions of the track share common elements : they are all suspended in space or sky, and have a very colorful track layout, hence the name, and powerful themed music.",
+          "lengths": "80-100 seconds to complete. The course is a simple circuit with few obstacles, as it is the first course in the game and is thus comparable to Luigi Circuit in previous installments."
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Toadette",
+    "bodyShot": "assets/bodyshots/toadette-full.webp",
+    "desc": "Toadette is a recurring Toad character in the Mario franchise. Originally introduced as a playable racing partner for Toad in Mario Kart: Double Dash!!, she has since appeared in other games as a playable character and has played supporting roles in several titles",
+    "cart": "",
+    "logo": "assets/characterLogos/toadette-logo.png",
+    "tracks": [
+      {
+        "id": 0,
+        "track": "Rainbow Road",
+        "thumbnail": "assets/tracks/rainbowRoad.webp",
+        "desc": {
+          "main": "All the versions of the track share common elements: they are all suspended in space or sky, and have a very colorful track layout, hence the name, and powerful themed music.",
+          "lengths": "They are sometimes the longest in the their games, notably Mario Kart 64's version, with a length of 2 kilometers and 2 minutes laptimes."
+        }
+      },
+      {
+        "id": 1,
+        "track": "Toad Circuit",
+        "thumbnail": "assets/tracks/Track2.webp",
+        "desc": {
+          "main": "All the versions of the track share common elements : they are all suspended in space or sky, and have a very colorful track layout, hence the name, and powerful themed music.",
+          "lengths": "80-100 seconds to complete. The course is a simple circuit with few obstacles, as it is the first course in the game and is thus comparable to Luigi Circuit in previous installments."
+        }
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Wario",
+    "bodyShot": "assets/bodyshots/wario-full.webp",
+    "desc": "Wario is a recurring character in the Mario franchise, designed to be an arch-rival to Mario. He is a muscular, hot-tempered, obese, and greedy character, usually playing the role of an anti-hero or an antagonist; he has also gone on to become a protagonist of his series of games.",
+    "cart": "",
+    "logo": "assets/characterLogos/wario-logo.webp",
+    "tracks": [
+      {
+        "id": 0,
+        "track": "Rainbow Road",
+        "thumbnail": "assets/tracks/rainbowRoad.webp",
+        "desc": {
+          "main": "All the versions of the track share common elements: they are all suspended in space or sky, and have a very colorful track layout, hence the name, and powerful themed music.",
+          "lengths": "They are sometimes the longest in the their games, notably Mario Kart 64's version, with a length of 2 kilometers and 2 minutes laptimes."
+        }
+      },
+      {
+        "id": 1,
+        "track": "Toad Circuit",
+        "thumbnail": "assets/tracks/Track2.webp",
+        "desc": {
+          "main": "All the versions of the track share common elements : they are all suspended in space or sky, and have a very colorful track layout, hence the name, and powerful themed music.",
+          "lengths": "80-100 seconds to complete. The course is a simple circuit with few obstacles, as it is the first course in the game and is thus comparable to Luigi Circuit in previous installments."
+        }
+      }
+    ]
+  }
+]

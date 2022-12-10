@@ -1,38 +1,235 @@
+/* IMPORT FONTS & COLORS */
+/* orbitronReg */
+@font-face {
+  font-family: orbitronReg;
+  src: url(../public/assets/fonts/Orbitron-Regular.ttf);
+}
+/* orbitronBlack */
+@font-face {
+  font-family: orbitronBlack;
+  src: url(../public/assets/fonts/Orbitron-Black.ttf);
+}
+/* orbitronBold */
+@font-face {
+  font-family: orbitronBold;
+  src: url(../public/assets/fonts/Orbitron-ExtraBold.ttf);
+}
+/* marioKart */
+@font-face {
+  font-family: marioKart;
+  src: url(../public/assets/fonts/mario_kart_f2.ttf);
+}
+
+/* $site-blue: #049cd8;
+$site-red: #e52521;
+$site-yellow: #fbd000;
+$site-green: #43b047; */
+
 .App {
+  width: 100vw;
+  min-height: 100vh;
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#049cd8),
+    color-stop(40%, #1c9cf6),
+    to(#1d71f2)
+  );
+}
+
+/* HEADER STYLING */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+header h2 {
+  font-family: orbitronBlack;
+  padding: 0px;
+  margin-top: 48px;
+}
+
+header p {
+  margin-top: -10px;
+  text-align: center;
+  max-width: 55%;
+  font-family: orbitronBlack;
+}
+
+/* ANIMATION STYLING */
+.characters-enter,
+.characters-appear {
+  opacity: 0;
+  width: 0;
+}
+
+.selectedCharacter-bodyShot {
+  transition: transform 2s;
+}
+
+.test {
+  transition: transform 2s;
+  transform: rotate(360deg);
+}
+
+.clickme-icon {
+  width: 40px;
+  height: 40px;
+  margin-top: -275px;
+  margin-left: 170px;
+}
+
+.characters-enter-active,
+.characters-appear-active {
+  opacity: 1;
+  /* width: 30px; */
+  transition: opacity 400ms, width 1000ms;
+}
+
+/* CHARACTER LIST STYLING */
+#addedCharacterList {
+  margin-left: 200px;
+  max-height: 500px;
+  max-width: 700px;
+}
+
+#characterList {
+  width: 200px;
+  max-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* MODAL STYLING */
+#Modal {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.modal-tracks {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.modal-tracks img {
+  width: 200px;
+  height: 125px;
+}
+
+.trackImgs {
+  width: 300px;
+  height: 200px;
+}
+
+.modal-track0 p,
+.modal-track1 p {
+  min-width: 400px;
+}
+
+.modal-track-list {
+  font-family: orbitronBlack;
+}
+
+.logos {
+  cursor: pointer;
+}
+
+#info {
+  width: 1000px;
+  height: 95%;
+  margin: 1% auto;
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#049cd8),
+    color-stop(40%, #1c9cf6),
+    to(#1d71f2)
+  );
+  border-radius: 6px;
+  padding: 4px;
+  outline: none;
+}
+
+.modal-desc {
+  max-width: 650px;
+  display: inline-block;
+  padding-left: 90px;
+}
+
+.modal-desc p {
+  margin: 0 auto;
+  max-width: 200px;
+  text-align: center;
+  padding: 32px 0px;
+  font-family: orbitronBlack;
+  letter-spacing: 2px;
+  font-size: 14px;
+  display: inline;
+}
+
+.modal-characterBodyShot {
+  height: 270px;
+  width: 160px;
+  margin: 0px 400px;
+  margin-top: 24px;
+}
+
+.modal-characterNames {
+  display: inline;
+}
+
+.logo-and-name {
+  display: inline;
+}
+
+/* SELECTED CHARACTER */
+
+.selectedCharacter-title {
+  width: 700px;
+  font-family: orbitronBlack;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.selectedCharacter-containter {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.selectedCharacter-Name {
+  font-family: orbitronBlack;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.selectedCharacter-bodyShot {
+  margin: 16px 25px;
+  cursor: pointer;
+}
+
+.selectedCharacter-bodyShot,
+.modal-characterBodyShot {
+  height: 205px;
+  width: 150px;
+}
+
+/* MUI SELECT CHARACTER BUTTON STYLING */
+.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.Button.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  font-size: 12px;
+  background-color: #e4000f;
+  color: black;
+  font-family: orbitronBlack;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.Button.css-sghohy-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: #fbd000;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.Button.css-sghohy-MuiButtonBase-root-MuiButton-root:disabled {
+  background-color: #b9b9b9;
 }
